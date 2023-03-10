@@ -1,4 +1,5 @@
 const users = require('./initialData').users; // import initial data
+const MAX = 10;
 
 const genAPIKey = () => {
   //create a base-36 string that contains 30 chars in a-z,0-9
